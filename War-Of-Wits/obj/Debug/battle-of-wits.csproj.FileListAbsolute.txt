@@ -1,0 +1,6 @@
+/Users/sawyerredpath/Downloads/csharp-combat/csharp-combat/bin/Debug/csharp_combat.exe.config
+/Users/sawyerredpath/Downloads/csharp-combat/csharp-combat/bin/Debug/csharp_combat.exe
+/Users/sawyerredpath/Downloads/csharp-combat/csharp-combat/bin/Debug/csharp_combat.pdb
+/Users/sawyerredpath/Downloads/csharp-combat/csharp-combat/obj/Debug/battle-of-wits.csproj.CoreCompileInputs.cache
+/Users/sawyerredpath/Downloads/csharp-combat/csharp-combat/obj/Debug/csharp_combat.exe
+/Users/sawyerredpath/Downloads/csharp-combat/csharp-combat/obj/Debug/csharp_combat.pdb
