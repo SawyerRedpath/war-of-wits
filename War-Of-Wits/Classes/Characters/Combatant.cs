@@ -103,5 +103,10 @@ namespace csharp_combat.Classes.Characters
 
             return output;
         }
+
+        public void PrintHealthBar()
+        {
+            // Take the health of the hero and print different health bar depending on what the health (percentage is)
+        }
     }
 }

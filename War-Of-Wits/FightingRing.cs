@@ -31,7 +31,7 @@ namespace csharp_combat
             new RangedWeapon("Hermione Granger Wand", DamageType.Magic, 1, 5, 250),
 
             // Dragon fire 
-            new RangedWeapon("Daenerys Targaryens Dragons", DamageType.Fire, 1, 8, 3),
+            new RangedWeapon("Daenerys Targaryens Dragons", DamageType.Fire, 1, 8, 50),
 
             // Sword weapons
             new Weapon("Frost Sword", DamageType.Cold, 2, 6),
@@ -56,7 +56,9 @@ namespace csharp_combat
         };
 
         private static string[] descriptions = {
-            "Fearless", "Lonesome", "Amazing", "Pathetic", "Courageous"
+            "Fearless", "Lonesome", "Amazing", "Pathetic", "Courageous", "Bold",
+            "Epic", "Noble", "Valiant", "Lion-hearted", "Grand", "Daring",
+            "Gutsy"
         };
 
         private static string[] messages = {
