@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{2D9F185F-B031-4CB5-89F0-02A958620C5B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FightingRing.cs">
+    <Files>
+      <File FileName="FightingRing.cs" Line="28" Column="62" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.war-of-wits PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

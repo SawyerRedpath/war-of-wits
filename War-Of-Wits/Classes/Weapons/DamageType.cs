@@ -16,6 +16,8 @@ namespace csharp_combat.Classes.Weapons
         Pierce,
         Fire,
         Cold,
-        Holy
+        Holy,
+        DarkMagic,
+        Magic
     }
 }

@@ -1,17 +1,5 @@
-﻿<Properties StartupConfiguration="{2D9F185F-B031-4CB5-89F0-02A958620C5B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="csharp-combat/Classes/Weapons/DamageType.cs">
-    <Files>
-      <File FileName="csharp-combat/FightingRing.cs" Line="38" Column="33" />
-      <File FileName="csharp-combat/Program.cs" Line="14" Column="22" />
-      <File FileName="csharp-combat/Classes/Characters/Combatant.cs" Line="82" Column="88" />
-      <File FileName="csharp-combat/Classes/Weapons/Weapon.cs" Line="1" Column="1" />
-      <File FileName="csharp-combat/Classes/Weapons/RangedWeapon.cs" Line="41" Column="1" />
-      <File FileName="csharp-combat/Classes/Characters/Fighter.cs" Line="15" Column="39" />
-      <File FileName="csharp-combat/Classes/Characters/Rogue.cs" Line="14" Column="9" />
-      <File FileName="csharp-combat/Classes/Characters/Wizard.cs" Line="33" Column="36" />
-      <File FileName="csharp-combat/Classes/Weapons/DamageType.cs" Line="19" Column="13" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

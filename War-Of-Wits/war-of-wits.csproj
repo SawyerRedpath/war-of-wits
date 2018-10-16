@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Characters\Combatant.cs" />
-    <Compile Include="Classes\Characters\Fighter.cs" />
+    <Compile Include="Classes\Characters\Swordsman.cs" />
     <Compile Include="Classes\Characters\Rogue.cs" />
     <Compile Include="Classes\Weapons\DamageType.cs" />
     <Compile Include="Classes\Weapons\RangedWeapon.cs" />

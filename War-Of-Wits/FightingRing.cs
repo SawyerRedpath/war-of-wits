@@ -24,19 +24,35 @@ namespace csharp_combat
             new RangedWeapon("Crossbow", DamageType.Pierce, 1, 8, 50),
             new RangedWeapon("Sling", DamageType.Bludgeon, 1, 4, 20),
 
-            // Magical Weapons
+            // Wizard weapons
+            new RangedWeapon("Elder Wand", DamageType.DarkMagic, 1, 8, 300),
+            new RangedWeapon("Harry Potter Wand", DamageType.Magic, 1, 6, 300),
+            new RangedWeapon("Ron Weasley Wand", DamageType.Magic, 1, 4, 250),
+            new RangedWeapon("Hermione Granger Wand", DamageType.Magic, 1, 5, 250),
+
+            // Dragon fire 
+            new RangedWeapon("Daenerys Targaryens Dragons", DamageType.Fire, 1, 8, 3),
+
+            // Sword weapons
             new Weapon("Frost Sword", DamageType.Cold, 2, 6),
             new Weapon("Master Sword", DamageType.Holy, 2, 10)
+
+
         };
 
         private static List<Combatant> combatants = new List<Combatant>()
         {
             // Fighters
-            new Fighter("Bubba the Bruiser"),
-            new Fighter("John, the Noble"),
+            //new Fighter("Bubba the Bruiser"),
+            //new Fighter("John, the Noble"),
 
-            new Rogue("Fezzik"),
-            //new Link(),
+            new Rogue("Daenerys Targaryen"),
+            new Wizard("Hermione Granger"),
+            new Wizard("Harry Potter"),
+            new Wizard("Lord Voldemort"),
+            new Wizard("Ron Weasley")
+            //new 
+
         };
 
         private static string[] descriptions = {
@@ -48,7 +64,10 @@ namespace csharp_combat
             "Excellent",
             "Heh heh...I hope you brought help!",
             "The hour of your doom nears...",
-            "A pity...They don't stand a chance."
+            "A pity...They don't stand a chance.",
+            "A most educated decision!",
+            "An interesting choice to be sure",
+            "Let us hope that works in your favor"
         };
 
         private const int SleepTime = 2000;
@@ -59,13 +78,13 @@ namespace csharp_combat
             Console.Clear();
             PrintGreeting();
 
-            PrintMessage($"Who wishes to fight first?");
+            PrintMessage($"Who wishes to battle first?");
 
             Combatant fighter1 = AskUserForCombatant();
             fighter1.Weapon = AskUserForWeapon();
 
             Console.WriteLine();
-            PrintMessage($"Who dare challenge this {GetRandomString(descriptions).ToLower()} fighter?");
+            PrintMessage($"Who dare challenge this {GetRandomString(descriptions).ToLower()} combatant?");
             Console.WriteLine();
 
             Combatant fighter2 = AskUserForCombatant();

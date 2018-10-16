@@ -9,7 +9,7 @@ namespace csharp_combat.Classes.Characters
 {
     public class Rogue : Combatant
     {
-        const int StartingHealth = 40;
+        const int StartingHealth = 70;
 
         /// <summary>
         /// Creates a new rogue.

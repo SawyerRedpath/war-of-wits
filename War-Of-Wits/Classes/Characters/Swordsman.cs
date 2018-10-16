@@ -10,14 +10,14 @@ namespace csharp_combat.Classes.Characters
     /// <summary>
     /// Creates a new fighter
     /// </summary>
-    public class Fighter : Combatant
+    public class Swordsman : Combatant
     {
         const int StartingHealth = 80;
 
 
         // Creates a new fighter where you can specify the name
         // but calls the base constructor with a value of 100 for health.
-        public Fighter(string name) 
+        public Swordsman(string name) 
             : base(name, StartingHealth)
         {
         }
@@ -35,8 +35,11 @@ namespace csharp_combat.Classes.Characters
         {
             int totalDamage = damage;
 
-            if (damageType == DamageType.Cold)
+            if (damageType == DamageType.DarkMagic)
             {
+                totalDamage *= 3;
+            }
+            else if (damageType == DamageType.Fire){
                 totalDamage *= 2;
             }
 

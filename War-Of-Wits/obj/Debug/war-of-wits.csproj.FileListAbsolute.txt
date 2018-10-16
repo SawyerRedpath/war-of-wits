@@ -1,0 +1,7 @@
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/obj/Debug/war-of-wits.csprojAssemblyReference.cache
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/obj/Debug/war-of-wits.csproj.CoreCompileInputs.cache
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/obj/Debug/csharp_combat.exe
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/obj/Debug/csharp_combat.pdb
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/bin/Debug/csharp_combat.exe.config
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/bin/Debug/csharp_combat.exe
+/Users/sawyerredpath/Documents/GitHub/War-Of-Wits/War-Of-Wits/bin/Debug/csharp_combat.pdb
